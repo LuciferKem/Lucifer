@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dự án - Phần mềm đọc truyện</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">Trang chủ</string>
+    <string name="title_activity_truyen_hai">Truyện cổ tích</string>
+    <string name="title_activity_truyen_kiem_hiep">Truyện kiếm hiệp</string>
+    <string name="title_activity_truyen_ma">Truyện ma</string>
+    <string name="title_activity_sach">Sách về cuộc sống</string>
+    <string name="title_activity_truyen_hai1">Truyện hài</string>
+    <string name="title_activity_truyen_hai2">Truyện cổ tích</string>
+    <string name="title_activity_truyen_hai3">Truyện cổ tích</string>
+    <string name="title_activity_truyen_hai4">Truyện cổ tích</string>
+    <string name="title_activity_truyen_hai5">Truyện cổ tích</string>
+
+</resources>

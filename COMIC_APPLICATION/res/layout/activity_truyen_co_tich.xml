@@ -1,0 +1,394 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TỔNG         HỢP         TRUYỆN         CỔ         TÍCH"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFCC00"
+        android:textSize="13sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/background_list" >
+
+        <ImageView
+            android:id="@+id/imgvTruyen1"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:onClick="imgvTruyen1"
+            android:padding="3dp"
+            android:src="@drawable/truyen1" />
+
+        <TextView
+            android:id="@+id/tvTruyen1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgvTruyen1"
+            android:paddingLeft="10dp"
+            android:text="Con cóc là cậu ông trời"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2Truyen1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTruyen1"
+            android:layout_toRightOf="@id/imgvTruyen1"
+            android:paddingLeft="10dp"
+            android:text="Nguồn: Sưu tầm"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/background_list" >
+
+        <ImageView
+             android:onClick="imgvTruyen2"
+            android:id="@+id/imgvTruyen2"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:padding="3dp"
+            android:src="@drawable/truyen2" />
+
+        <TextView
+            android:id="@+id/tvTruyen2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgvTruyen2"
+            android:paddingLeft="10dp"
+            android:text="Sự tích hồ Ba Bể"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2Truyen2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTruyen2"
+            android:layout_toRightOf="@id/imgvTruyen2"
+            android:paddingLeft="10dp"
+            android:text="Nguồn: Sưu tầm"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/background_list" >
+
+        <ImageView
+             android:onClick="imgvTruyen3"
+            android:id="@+id/imgvTruyen3"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:padding="3dp"
+            android:src="@drawable/truyen3" />
+
+        <TextView
+            android:id="@+id/tvTruyen3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgvTruyen3"
+            android:paddingLeft="10dp"
+            android:text="Ba sợi tóc vàng của con quỷ "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2Truyen3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTruyen3"
+            android:layout_toRightOf="@id/imgvTruyen3"
+            android:paddingLeft="10dp"
+            android:text="Nguồn: Sưu tầm"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/background_list" >
+
+        <ImageView
+             android:onClick="imgvTruyen4"
+            android:id="@+id/imgvTruyen4"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:padding="3dp"
+            android:src="@drawable/truyen4" />
+
+        <TextView
+            android:id="@+id/tvTruyen4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgvTruyen4"
+            android:paddingLeft="10dp"
+            android:text="Sừng và chân hươu"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2Truyen4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTruyen4"
+            android:layout_toRightOf="@id/imgvTruyen4"
+            android:paddingLeft="10dp"
+            android:text="Nguồn: Sưu tầm"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/background_list" >
+
+        <ImageView
+             android:onClick="imgvTruyen5"
+            android:id="@+id/imgvTruyen5"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:padding="3dp"
+            android:src="@drawable/truyen5" />
+
+        <TextView
+            android:id="@+id/tvTruyen5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgvTruyen5"
+            android:paddingLeft="10dp"
+            android:text="Trí khôn của ta đây"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2Truyen5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTruyen5"
+            android:layout_toRightOf="@id/imgvTruyen5"
+            android:paddingLeft="10dp"
+            android:text="Nguồn: Sưu tầm"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/background_list" >
+
+        <ImageView
+             
+            android:id="@+id/imgvTruyen6"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:padding="3dp"
+            android:src="@drawable/truyen6" />
+
+        <TextView
+            android:id="@+id/tvTruyen6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgvTruyen6"
+            android:paddingLeft="10dp"
+            android:text="Thứ mà đàn ông muốn"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2Truyen6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTruyen6"
+            android:layout_toRightOf="@id/imgvTruyen6"
+            android:paddingLeft="10dp"
+            android:text="Nguồn: Sưu tầm"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/background_list" >
+
+        <ImageView
+            
+            android:id="@+id/imgvTruyen7"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:padding="3dp"
+            android:src="@drawable/truyen7" />
+
+        <TextView
+            android:id="@+id/tvTruyen7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgvTruyen7"
+            android:paddingLeft="10dp"
+            android:text="Chú ếch thông minh"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2Truyen7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTruyen7"
+            android:layout_toRightOf="@id/imgvTruyen7"
+            android:paddingLeft="10dp"
+            android:text="Nguồn: Sưu tầm"
+            android:textSize="10sp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/background_list" >
+
+        <ImageView
+            android:id="@+id/imgvTruyen8"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            
+            android:padding="3dp"
+            android:src="@drawable/truyen8" />
+
+        <TextView
+            android:id="@+id/tvTruyen8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgvTruyen8"
+            android:paddingLeft="10dp"
+            android:text="Bản lĩnh đàn ông"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2Truyen8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTruyen8"
+            android:layout_toRightOf="@id/imgvTruyen8"
+            android:paddingLeft="10dp"
+            android:text="Nguồn: Sưu tầm"
+            android:textSize="10sp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/background_list" >
+
+        <ImageView
+            android:id="@+id/imgvTruyen9"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            
+            android:padding="3dp"
+            android:src="@drawable/truyen9" />
+
+        <TextView
+            android:id="@+id/tvTruyen9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgvTruyen9"
+            android:paddingLeft="10dp"
+            android:text="Mẹ ơi con đã có thai"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2Truyen9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTruyen9"
+            android:layout_toRightOf="@id/imgvTruyen9"
+            android:paddingLeft="10dp"
+            android:text="Nguồn: Sưu tầm"
+            android:textSize="10sp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/background_list" >
+
+        <ImageView
+            android:id="@+id/imgvTruyen10"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            
+            android:padding="3dp"
+            android:src="@drawable/truyen10" />
+
+        <TextView
+            android:id="@+id/tvTruyen10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgvTruyen10"
+            android:paddingLeft="10dp"
+            android:text="Cô dâu mới về nhà chồng"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2Truyen10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTruyen10"
+            android:layout_toRightOf="@id/imgvTruyen10"
+            android:paddingLeft="10dp"
+            android:text="Nguồn: Sưu tầm"
+            android:textSize="10sp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/background_list" >
+
+        <ImageView
+            android:id="@+id/imgvTruyen11"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            
+            android:padding="3dp"
+            android:src="@drawable/truyen11" />
+
+        <TextView
+            android:id="@+id/tvTruyen11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgvTruyen11"
+            android:paddingLeft="10dp"
+            android:text="Cô y tá xinh đẹp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2Truyen11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTruyen11"
+            android:layout_toRightOf="@id/imgvTruyen11"
+            android:paddingLeft="10dp"
+            android:text="Nguồn: Sưu tầm"
+            android:textSize="10sp" />
+    </RelativeLayout>
+    
+
+
+</LinearLayout>

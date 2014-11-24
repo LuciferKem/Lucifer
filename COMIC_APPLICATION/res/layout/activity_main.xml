@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <TextView 
+        android:id="@+id/tvTheLoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TỔNG           HỢP           THỂ           LOẠI           TRUYỆN"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFCC00"
+        android:textSize="13sp"/>
+
+    <ImageView
+        android:id="@+id/imgvTheLoai"
+        android:layout_width="340px"
+        android:layout_height="500px"
+        android:layout_below="@id/tvTheLoai"
+        android:onClick="imgvTheLoai"
+        android:padding="10px"
+        android:src="@drawable/truyen_cuoi" />
+
+    <ImageView
+        android:id="@+id/imgvGioiThieu"
+        android:layout_width="340px"
+        android:layout_height="500px"
+        android:onClick="imgvGioiThieu"
+        android:layout_below="@id/imgvTheLoai"
+        android:padding="10px"
+        android:src="@drawable/truyen_ma" />
+
+    <ImageView
+        android:id="@+id/imgvThongTin"
+        android:layout_width="340px"
+        android:layout_height="500px"
+        android:layout_above="@+id/imgvGioiThieu"
+        android:layout_alignParentRight="true"
+        android:onClick="imgvThongTin"
+        android:padding="10px"
+        android:src="@drawable/truyen_kiem_hiep" />
+
+    <ImageView
+        android:id="@+id/imgvTuyChon"
+        android:layout_width="340px"
+        android:layout_height="500px"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imgvGioiThieu"
+        android:onClick="imgvTuyChon"
+        android:padding="10px"
+        android:src="@drawable/sach" />
+
+</RelativeLayout>

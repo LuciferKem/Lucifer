@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.comic_application"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".TruyenHaiActivity"
+            android:label="@string/title_activity_truyen_hai" >
+        </activity>
+        <activity
+            android:name=".TruyenKiemHiepActivity"
+            android:label="@string/title_activity_truyen_kiem_hiep" >
+        </activity>
+        <activity
+            android:name=".TruyenMaActivity"
+            android:label="@string/title_activity_truyen_ma" >
+        </activity>
+        <activity
+            android:name=".SachActivity"
+            android:label="@string/title_activity_sach" >
+        </activity>
+        <activity
+            android:name=".TruyenCoTich1Activity"
+            android:label="@string/title_activity_truyen_hai1" >
+        </activity>
+        <activity
+            android:name=".TruyenCoTich2Activity"
+            android:label="@string/title_activity_truyen_hai2" >
+        </activity>
+        <activity
+            android:name=".TruyenCoTich3Activity"
+            android:label="@string/title_activity_truyen_hai3" >
+        </activity>
+        <activity
+            android:name=".TruyenCoTich4Activity"
+            android:label="@string/title_activity_truyen_hai4" >
+        </activity>
+        <activity
+            android:name=".TruyenCoTich5Activity"
+            android:label="@string/title_activity_truyen_hai5" >
+        </activity>
+    </application>
+
+</manifest>
